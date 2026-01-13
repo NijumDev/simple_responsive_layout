@@ -4,63 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media</title>
-<style>
-    .container{
-        display: flex;
-    }
-    .food{
-        border: 2px solid aqua;
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            display: flex;
+            justify-content: center;
 
-    }
-    .food > h3 > p{
-        font-size: 100px;
-    }
-</style>
+        }
+        .hight img{
+            width: 100%;
 
+            border: 1px solid;
+
+
+         }
+         h3{
+            font: size 50px;
+            height: 20px;
+         }
+         @media screen and ( max width:570px){
+            .container{
+                grid-template-columns: repeat(1, 1FR);
+            }
+         }
+
+    </style>
 </head>
-<body class="container">
-
-    <div class="food">
-        <img src="img/New folder/img/healthy-food-scaled.jpg" alt="" >
-        <h3>food item-1</h3>
+<body>
+    <div class="container">
+        <div class="hight">
+        <img src="img/images.jfif" alt="">
+        <h3>Food Iteam-1</h3>
         <p>price:$100</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nihil repudiandae praesentium aperiam quisquam dolor iure, minus incidunt, doloremque iste, recusandae quae et porro dolores perferendis numquam ex alias eos!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis nisi autem dolore eum alias maxime odit iure! At ea expedita cupiditate vero. Aut mollitia voluptatum saepe deserunt autem perferendis reprehenderit?</p>
+        <div class="hight">
+        <img src="img/images.jfif" alt="">
+        <h3>Food Iteam-2</h3>
+        <p>price:$100</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis nisi autem dolore eum alias maxime odit iure! At ea expedita cupiditate vero. Aut mollitia voluptatum saepe deserunt autem perferendis reprehenderit?</p>
     </div>
-    <div class="food">
-      <img src="img/New folder/img/healthy-food-scaled.jpg" alt="">
-      <h3>food item-2</h3>
-      <p>price : $200</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sed fugiat itaque. Possimus nesciunt earum ipsa. Iusto qui, consequatur illum impedit autem inventore hic, nostrum asperiores deserunt dicta officiis incidunt?</p>
+    <div class="hight">
+        <img src="img/images.jfif" alt="">
+        <h3>Food Iteam-3</h3>
+        <p>price:$100</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis nisi autem dolore eum alias maxime odit iure! At ea expedita cupiditate vero. Aut mollitia voluptatum saepe deserunt autem perferendis reprehenderit?</p>
     </div>
-    <div class="food">
-      <img src="img/New folder/img/healthy-food-scaled.jpg" alt="">
-      <h3>food item-2</h3>
-      <p>price : $200</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sed fugiat itaque. Possimus nesciunt earum ipsa. Iusto qui, consequatur illum impedit autem inventore hic, nostrum asperiores deserunt dicta officiis incidunt?</p>
+    <div class="hight">
+        <img src="img/images.jfif" alt="">
+        <h3>Food Iteam-4</h3>
+        <p>price:$100</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis nisi autem dolore eum alias maxime odit iure! At ea expedita cupiditate vero. Aut mollitia voluptatum saepe deserunt autem perferendis reprehenderit?</p>
     </div>
-    <div class="food">
-      <img src="img/New folder/img/healthy-food-scaled.jpg" alt="">
-      <h3>food item-2</h3>
-      <p>price : $200</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sed fugiat itaque. Possimus nesciunt earum ipsa. Iusto qui, consequatur illum impedit autem inventore hic, nostrum asperiores deserunt dicta officiis incidunt?</p>
+    <div class="hight">
+        <img src="img/images.jfif" alt="">
+        <h3>Food Iteam-5</h3>
+        <p>price:$100</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis nisi autem dolore eum alias maxime odit iure! At ea expedita cupiditate vero. Aut mollitia voluptatum saepe deserunt autem perferendis reprehenderit?</p>
     </div>
-    <div class="food">
-      <img src="img/New folder/img/healthy-food-scaled.jpg" alt="">
-      <h3>food item-2</h3>
-      <p>price : $200</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sed fugiat itaque. Possimus nesciunt earum ipsa. Iusto qui, consequatur illum impedit autem inventore hic, nostrum asperiores deserunt dicta officiis incidunt?</p>
+    <div class="hight">
+        <img src="img/images.jfif" alt="">
+        <h3>Food Iteam-6</h3>
+        <p>price:$100</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis nisi autem dolore eum alias maxime odit iure! At ea expedita cupiditate vero. Aut mollitia voluptatum saepe deserunt autem perferendis reprehenderit?</p>
     </div>
-    <div class="food">
-      <img src="img/New folder/img/healthy-food-scaled.jpg" alt="">
-      <h3>food item-2</h3>
-      <p>price : $200</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sed fugiat itaque. Possimus nesciunt earum ipsa. Iusto qui, consequatur illum impedit autem inventore hic, nostrum asperiores deserunt dicta officiis incidunt?</p>
+    <div class="hight">
+        <img src="img/images.jfif" alt="">
+        <h3>Food Iteam-7</h3>
+        <p>price:$100</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis nisi autem dolore eum alias maxime odit iure! At ea expedita cupiditate vero. Aut mollitia voluptatum saepe deserunt autem perferendis reprehenderit?</p>
     </div>
-    <div class="food">
-      <img src="img/New folder/img/healthy-food-scaled.jpg" alt="">
-      <h3>food item-2</h3>
-      <p>price : $200</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sed fugiat itaque. Possimus nesciunt earum ipsa. Iusto qui, consequatur illum impedit autem inventore hic, nostrum asperiores deserunt dicta officiis incidunt?</p>
+
     </div>
+
+
+    </div>
+    
 </body>
 </html>
